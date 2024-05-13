@@ -5,16 +5,14 @@ This repository contains an extensive benchmarking suite for the new implementat
 
 ## Summary tables
 
+**Numpy**
 
-
-| Operator                |            Old (s)       |            New (s)       |
-|-------------------------|--------------------------|--------------------------|
-| Operator                |            Old (s)       |            New (s)       |
-| Operator                |            Old (s)       |            New (s)       |
-| Operator                |            Old (s)       |            New (s)       |
-| Operator                |            Old (s)       |            New (s)       |
-| Operator                |            Old (s)       |            New (s)       |
-
+| Operator                |      Old (ms)     |      New (ms)      | New broad. (ms)  |
+|-------------------------|-------------------|--------------------|------------------|
+| Sliding1D               |       24.2        |     12.6           |       1.5        |
+| Sliding1D.H             |       13.2        |     7.65           |      0.353       |
+| Sliding2D               |       200         |     20.7           |      16.2        |
+| Sliding2D.H             |       11.6        |     8.65           |      5.58        |
 
 
 ## TO DO
